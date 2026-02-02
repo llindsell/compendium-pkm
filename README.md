@@ -45,14 +45,24 @@ The system is **agent-portable** -- instructions live in `AGENTS.md`, not tied t
 
 ## Quick start
 
-### 1. Clone and personalize
+### 1. Create your own copy
+
+Click **"Use this template"** on GitHub to create your own repository. This gives you a clean starting point with your own git history.
 
 ```bash
-git clone git@github.com:llindsell/compendium-pkm.git
-cd compendium-pkm
+git clone git@github.com:YOUR_USERNAME/YOUR_REPO_NAME.git
+cd YOUR_REPO_NAME
 ```
 
 Edit `USER.md` with your name, preferences, and working style. This helps the agent tailor its behavior to you.
+
+> **Getting system updates:** To pull in future improvements to the compendium system, add the upstream remote and merge selectively:
+> ```bash
+> git remote add upstream git@github.com:llindsell/compendium-pkm.git
+> git fetch upstream
+> git merge upstream/main --allow-unrelated-histories
+> ```
+> Resolve any conflicts in your personal files (USER.md, etc.) and commit.
 
 ### 2. Point your agent at it
 
