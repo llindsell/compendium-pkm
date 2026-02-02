@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "search": {
+    "backend": "fts5",
+    "dbPath": ".compendium/db/search.db"
+  },
+  "decay": {
+    "hotDays": 7,
+    "warmDays": 30,
+    "hotAccessCount": 10,
+    "warmAccessCount": 3
+  },
+  "entities": {
+    "autoCreateThreshold": 3
+  },
+  "git": {
+    "autoCommit": true,
+    "autoPush": true
+  }
+}
