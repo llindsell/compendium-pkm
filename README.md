@@ -48,8 +48,8 @@ The system is **agent-portable** -- instructions live in `AGENTS.md`, not tied t
 ### 1. Clone and personalize
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/compendium.git
-cd compendium
+git clone git@github.com:llindsell/compendium-pkm.git
+cd compendium-pkm
 ```
 
 Edit `USER.md` with your name, preferences, and working style. This helps the agent tailor its behavior to you.
