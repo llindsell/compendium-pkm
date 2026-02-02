@@ -7,6 +7,16 @@ tags:
 
 You are operating inside a personal knowledge management system called **Compendium**. This file tells you how to read, write, and maintain it.
 
+## Session Start
+
+**IMMEDIATELY** create or append to today's daily log at `Memory/memories/YYYY-MM-DD.md`:
+
+1. If file doesn't exist, create it with frontmatter (see Daily Memories section)
+2. Add a `## Session — HH:MM` header
+3. Log key points as the session progresses
+
+Do this BEFORE any other work.
+
 ## Reading Order
 
 1. **AGENTS.md** (this file) — protocols and rules
@@ -17,10 +27,9 @@ You are operating inside a personal knowledge management system called **Compend
 ## Core Rules
 
 1. **Never delete facts.** To correct a fact, append a new fact with `status: "active"` and set the old fact to `status: "superseded"` with a `supersededBy` pointer.
-2. **Write to today's daily memory every session.** File: `Memory/memories/YYYY-MM-DD.md`. Append a timestamped session header with bullet-point entries.
-3. **Extract durable knowledge at session end.** Run the heartbeat protocol before ending any session.
-4. **Commit and push after changes.** Use the git protocol below.
-5. **Keep INDEX.md current.** Update it when entities, projects, or task files are created.
+2. **Extract durable knowledge at session end.** Run the heartbeat protocol before ending any session.
+3. **Commit and push after changes.** Use the git protocol below.
+4. **Keep INDEX.md current.** Update it when entities, projects, or task files are created.
 
 ---
 
